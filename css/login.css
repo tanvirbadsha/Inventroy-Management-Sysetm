@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../resources/images/home_background_image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 100px;
+}
+.container .login-title {
+  color: #fe94a3;
+  text-align: center;
+  margin-top: 50px;
+}
+.container .login-title h1 {
+  font-weight: bold;
+  font-size: 45px;
+  font-size: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+.login-title p {
+  border-bottom: 2px solid #f895a5;
+  display: inline-block;
+  margin: 0px;
+  color: #fde4e3;
+  text-transform: uppercase;
+}
+.loginForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 3px solid white;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  width: 100%;
+  min-width: 300px;
+}
+.loginForm label {
+  display: block;
+  color: white;
+  width: 100%;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.loginForm input {
+  min-width: 300px;
+  font-size: 1.3rem;
+  border: 2px solid #cc7681;
+}
+.loginForm input::placeholder {
+  text-align: center;
+  opacity: 0.8;
+  font-size: small;
+}
+.loginBtn {
+  background-color: #cc7681;
+  border: none;
+  font-size: 1.3rem;
+  width: 100px;
+  margin: 2px auto;
+  color: white;
+  padding: 5px 0px;
+}
+.loginBtn:hover {
+  cursor: pointer;
+  background-color: #cc7681a1;
+}
